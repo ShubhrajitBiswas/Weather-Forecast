@@ -18,9 +18,7 @@ body {
 .card {
     width: 90%; 
     max-width: 470px;
-    
     background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-    
     color: #fff;
     margin: 20px auto;
     border-radius: 30px;
@@ -144,4 +142,58 @@ body {
     color: #ff4c4c;
     margin-top: 10px;
     display: none;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+    .card {
+        padding: 30px 25px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 40px;
+    }
+
+    .weather-icon {
+        width: 130px;
+    }
+
+    .col img {
+        width: 30px;
+    }
+
+    .humidity, .wind {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 25px 20px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 34px;
+    }
+
+    .weather-icon {
+        width: 110px;
+    }
+
+    .col img {
+        width: 26px;
+    }
+
+    .humidity, .wind {
+        font-size: 20px;
+    }
 }
