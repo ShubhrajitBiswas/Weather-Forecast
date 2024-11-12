@@ -30,7 +30,7 @@ script.js: JavaScript file that handles API requests, data processing, and UI up
 1.Clone this repository to your local machine:
 bash
 Copy code
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/ShubhrajitBiswas/weather-app.git
 2.Open index.html in your browser to use the app.
 ## Usage
 Open the app in your browser.
