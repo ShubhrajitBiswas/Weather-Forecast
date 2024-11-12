@@ -20,7 +20,7 @@ This is a simple weather app that allows users to check the current weather cond
 
 This project uses the OpenWeather API to fetch weather data. You will need to replace the `apiKey` in the JavaScript file with your own API key. You can get an API key by signing up at [OpenWeather](https://openweathermap.org/).
 `` javascript
-const apiKey = "YOUR_API_KEY";
+const apiKey = "YOUR_API_KEY";``
 ## File Structure
 index.html: The main HTML file that contains the structure of the weather app.
 style.css: The CSS file that styles the weather app.
