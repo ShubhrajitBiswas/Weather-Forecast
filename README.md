@@ -39,5 +39,4 @@ Press the search button or hit "Enter" to fetch the weather details.
 The app will display the current temperature, humidity, wind speed, and a weather icon based on the conditions.
 ## Error Handling
 If the user enters an invalid city name or if there is an issue with the API request, an error message will be displayed.
-## License
-This project is open source and available under the MIT License.
+
